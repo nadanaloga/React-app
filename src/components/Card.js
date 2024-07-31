@@ -9,7 +9,7 @@ const Card = ({ imageUrl, title, content, link }) => {
   });
 
   return (
-    <animated.div className="w-full flex flex-col rounded overflow-hidden shadow-lg" style={props}>
+    <animated.div className="w-full max-w-xs flex flex-col rounded overflow-hidden shadow-lg" style={props}>
       <div className="flex justify-center py-4">
         <img className="w-24 h-auto object-cover" src={imageUrl} alt="Card image" />
       </div>
