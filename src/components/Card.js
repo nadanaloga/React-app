@@ -19,11 +19,11 @@ const Card = ({ imageUrl, title, content, link }) => {
           {content}
         </p>
       </div>
-      <div className="px-6 py-4">
+      {/* <div className="px-6 py-4">
         <a href={link} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Read more
         </a>
-      </div>
+      </div> */}
     </animated.div>
   );
 };

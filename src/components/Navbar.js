@@ -39,16 +39,16 @@ const Navbar = () => {
           <nav className="hidden md:flex space-x-4">
             <NavLink to="/" exact activeClassName="text-blue-500" className="hover:text-pinkcolor">Home</NavLink>
             <NavLink to="/about" activeClassName="text-blue-500" className="hover:text-pinkcolor">About</NavLink>
-            <NavLink to="/course" activeClassName="text-blue-500" className="hover:text-pinkcolor">Courses</NavLink>
+            {/* <NavLink to="/course" activeClassName="text-blue-500" className="hover:text-pinkcolor">Courses</NavLink> */}
             <NavLink to="/gallery" activeClassName="text-blue-500" className="hover:text-pinkcolor">Gallery</NavLink>
             <NavLink to="/contact" activeClassName="text-blue-500" className="hover:text-pinkcolor">Contact</NavLink>
-            <NavLink to="/reviews" activeClassName="text-blue-500" className="hover:text-pinkcolor">Reviews</NavLink>
-            <NavLink to="/team" activeClassName="text-blue-500" className="hover:text-pinkcolor">Team</NavLink>
+            {/* <NavLink to="/reviews" activeClassName="text-blue-500" className="hover:text-pinkcolor">Reviews</NavLink>
+            <NavLink to="/team" activeClassName="text-blue-500" className="hover:text-pinkcolor">Team</NavLink> */}
           </nav>
-          <div className="hidden md:flex space-x-4">
+          {/* <div className="hidden md:flex space-x-4">
             <button className="bg-green-500 text-white px-2 py-1 rounded-md hover:bg-green-600">Login</button>
             <button className="bg-blue-500 text-white px-2 py-1 rounded-md hover:bg-blue-600">Register</button>
-          </div>
+          </div> */}
           <button className="md:hidden flex items-center text-blue-500 focus:outline-none" onClick={toggleMenu}>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
@@ -69,11 +69,11 @@ const Navbar = () => {
         <nav className="md:hidden bg-white shadow-md">
           <NavLink to="/" exact activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>Home</NavLink>
           <NavLink to="/about" activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>About</NavLink>
-          <NavLink to="/course" activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>Courses</NavLink>
+          {/* <NavLink to="/course" activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>Courses</NavLink> */}
           <NavLink to="/gallery" activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>Gallery</NavLink>
           <NavLink to="/contact" activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>Contact</NavLink>
-          <NavLink to="/reviews" activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>Reviews</NavLink>
-          <NavLink to="/team" activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>Team</NavLink>
+          {/* <NavLink to="/reviews" activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>Reviews</NavLink>
+          <NavLink to="/team" activeClassName="text-blue-500" className="block p-4 hover:bg-gray-100" onClick={toggleMenu}>Team</NavLink> */}
           <div className="p-4">
             <span className="block text-gray-600 mb-2 font-bold">
               <FaPhone className="mr-2 inline font-bold" /> +91 95 66 86 65 66
@@ -95,10 +95,10 @@ const Navbar = () => {
                 <FaYoutube size={20} style={{ color: '#FF0000' }} />
               </button>
             </div>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 w-full">Login</button>
               <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 w-full">Register</button>
-            </div>
+            </div> */}
           </div>
         </nav>
       )}
