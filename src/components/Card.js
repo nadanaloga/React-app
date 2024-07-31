@@ -1,5 +1,3 @@
-// src/components/Card.js
-
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 
@@ -11,7 +9,7 @@ const Card = ({ imageUrl, title, content, link }) => {
   });
 
   return (
-  <animated.div className="max-w-xs flex flex-col rounded overflow-hidden shadow-lg m-4" style={props}>
+    <animated.div className="w-full flex flex-col rounded overflow-hidden shadow-lg" style={props}>
       <div className="flex justify-center py-4">
         <img className="w-24 h-auto object-cover" src={imageUrl} alt="Card image" />
       </div>
