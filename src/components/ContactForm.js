@@ -45,13 +45,20 @@ const ContactForm = () => {
       {messageSent && (
         <div className="fixed top-4 right-4 bg-green-500 text-white font-bold py-2 px-4 rounded-lg shadow-lg z-50">
           Message sent successfully!
-        </div>
+        </div>  
       )}
       <div className="flex flex-col md:flex-row mt-12">
         <div className="md:w-1/2 p-8 bg-gray-100">
-          <h2 className="text-2xl font-bold mb-4">Contact Address</h2>
-          <p className="text-gray-700">123 Main Street,</p>
-          <p className="text-gray-700">Springfield, USA</p>
+          <h2 className="text-2xl font-bold mb-4">Main Office</h2>
+          <p className="text-gray-700">4th St, Ayyappa Nagar,Sadasivam Nagar, Sembakkam</p>
+          <p className="text-gray-700">Chennai, Tamil Nadu 600064</p>
+          <p className="text-gray-700">Email: nadanalogaa@gmail.com</p>
+        </div>
+      
+        <div className="md:w-1/2 p-8 bg-gray-100">
+          <h2 className="text-2xl font-bold mb-4">Branches</h2>
+          <p className="text-gray-700">  Plot no3, VIT Serasa avenue, beside VIT College</p>
+          <p className="text-gray-700"> Ponmar, Mambakkam, Chennai, Tamil Nadu 600127</p>
           <p className="text-gray-700">Email: nadanalogaa@gmail.com</p>
         </div>
         <div className="md:w-1/2 p-8">
