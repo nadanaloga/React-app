@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  position: relative;
+  z-index: 1;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(117 118 147 / var(--tw-text-opacity));
+}
+
+
+
+/* Light mode */
+.light {
+   background:#fff
+  }
+  
+  /* Dark mode */
+  .dark {
+    background:#000
+    /* Define styles for dark mode */
+  }
+
+  .active{
+
+    color:#ff2266;
+    font-weight: 600;
+  }
+  @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);
