@@ -7,6 +7,7 @@ import image1 from '../assets/img/edited/01.jpg';
 import image2 from '../assets/img/edited/02.jpg'; 
 import image3 from '../assets/img/edited/01.jpg'; 
 import image4 from '../assets/img/edited/01.jpg'; 
+import { Helmet } from 'react-helmet';
 
 
 
@@ -17,7 +18,11 @@ function Home() {
  /*  const { darkMode } = useTheme(); */
   return (
 <section className="w-full bg-white">
-
+<Helmet>
+<title>Nadanaloga Fine Arts - Bharatanatyam, Vocal, Semi Classical, Drawing</title>
+<meta name="description" content="Join Nadanaloga dance class in Chennai Sembakkam and Mambakkam, offering Bharatanatyam, Vocal, and Semiclassical Dance for adults. We provide online classes for Indians in the US, UK, France, Malaysia, Singapore Canada  and other countries.. Learn from well-trained teachers and staff" />
+<meta name="keywords" content="Bharatanatyam, Indian dance, Vocal class, Semiclassical dance, Chennai dance class, Sembakkam dance class, Mambakkam dance class, online dance classes, international dance classes, dance classes for Indians, dance classes for adults, dance teachers, Indian cultural dance, dance staff, US dance class, UK dance class, France dance class, Canada dance class" />
+</Helmet>
 <Carousel />
 {/* <Reviews/> */}
 <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
@@ -166,6 +171,7 @@ function Home() {
     </div>
   </div>
 </div>
+
 
 </section>
 

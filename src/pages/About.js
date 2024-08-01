@@ -1,8 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const About = () => {
   return (
     <div className="bg-gray-50 py-24 w-full">
+      <Helmet>
+      <title>Nadanaloga Fine Arts - Bharatanatyam, Vocal, Semi Classical, Drawing, Our History</title>
+      <meta name="description" content="Discover Nadanaloga dance class, with branches in Chennai Sembakkam and Mambakkam. We offer Bharatanatyam, Vocal, and Semiclassical Dance classes for adults. Our experienced teachers provide online classes for Indians in the US, UK, France, Canada, Malaysia, Singapore and other Countries" />
+      <meta name="keywords" content="Nadanaloga dance class, Chennai dance classes, Sembakkam dance class, Mambakkam dance class, Bharatanatyam, Vocal class, Semiclassical dance, online dance classes, international dance classes, experienced teachers, dance staff, dance for Indians, dance for adults, US dance classes, UK dance classes, France dance classes, Canada dance classes, Malaysia Dance Class, Singapore DAnce Class" />
+      </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* About Us Section */}
         <div className="flex flex-col lg:flex-row lg:gap-8">
@@ -65,7 +71,9 @@ const About = () => {
           </p>
         </div>
       </div>
+     
     </div>
+    
   );
 };
 
