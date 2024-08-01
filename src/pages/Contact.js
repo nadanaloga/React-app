@@ -14,8 +14,8 @@ function Contact() {
       <meta name="keywords" content="Contact Nadanaloga dance class, Chennai dance classes, Sembakkam dance class, Mambakkam dance class, Bharatanatyam, Vocal class, Semiclassical dance, online dance classes, international dance classes, Indian dance classes, US dance classes, UK dance classes, France dance classes, Canada dance classes, Malaysia Dance Class, Singapore DAnce Class" />
       </Helmet>
     <SectionHeader
-        title="Customer Reviews"
-        description="Explore our featured cards collection."
+        title="Free free to"
+        description="Contact Us"
       />
  <ContactForm/>
 
