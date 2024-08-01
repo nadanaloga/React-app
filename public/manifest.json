@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Nadanaloga",
+  "name": "Nadanaloga Dance and Vocal Class",
+  "description": "Join Nadanaloga dance class in Chennai Sembakkam and Mambakkam, offering Bharatanatyam, Vocal, and Semiclassical Dance for adults. We provide online classes for Indians in the US, UK, France, and Canada. Learn from well-trained teachers and staff.",
   "icons": [
     {
       "src": "favicon.ico",
