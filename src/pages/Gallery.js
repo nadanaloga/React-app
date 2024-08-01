@@ -8,7 +8,7 @@ function Gallery() {
     <div>
        <SectionHeader
         title="Meet our Team"
-        description="Explore our featured cards collection."
+        description="Photo Gallery"
       />
 
 <PhotoGallery/>
